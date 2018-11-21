@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    writing-mode: vertical-lr;
+}
+
+.circle{
+    border-radius: 100%;
+    background-color:#6F6F6F;
+    width:50px;
+    height:50px;
+}
+.active {
+    background-color:white;
+}
+h2{
+    text-align: center;
+}
